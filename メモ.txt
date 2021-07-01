@@ -1,0 +1,96 @@
+第四章終了
+
+^^^^^index.html^^^^^
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css" />
+    <title>CARAVAN</title>
+  </head>
+
+  <body>
+    <!-- header用のdiv -->
+    <div class="header">
+      <div class="header-top"></div>
+      <div class="header-bottom"></div>
+    </div>
+        <!-- main-visual用のdiv -->
+    <div class="main-visual"> 
+      <div class="main-visual-content"></div>
+   </div>
+    <!-- main用のdiv -->
+    <div class="main">
+      <div class="blog"></div>
+      <div class="sidebar"></div>
+    </div>
+    <!-- footer用のdiv -->
+    <div class="footer"></div>
+  </body>
+</html>
+
+
+
+^^^^^style.css^^^^^
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: red;
+}
+
+.header-top {
+  width: 100%;
+  height: 70px;
+  background-color: hotpink;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
+
+.main-visual {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+}
+
+.main-visual-content {
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+}
+
+.main {
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog {
+  width: 600px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.sidebar {
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background-color: blue;
+}
+
